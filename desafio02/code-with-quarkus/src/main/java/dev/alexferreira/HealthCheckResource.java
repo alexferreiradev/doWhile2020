@@ -12,6 +12,6 @@ public class HealthCheckResource implements HealthCheck {
 
 	@Override
 	public HealthCheckResponse call() {
-		return HealthCheckResponse.up("Serviço ativo");
+		return HealthCheckResponse.up("GreetingResource");
 	}
 }
